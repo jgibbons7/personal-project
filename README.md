@@ -13,10 +13,10 @@
   - Moderate
 
 ## Features
-  - Ability to message friends.
-  - Upload pictures
+  - SMS Messaging
+  - Chat feature
   - Create portfolios for various hobbies
-  - 
+  - Show off all your favorite things, to yourself.
 
 ## Routes
   - About "Anti-Social Media" - Not Protected
