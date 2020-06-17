@@ -25,18 +25,42 @@
   - Profile - Protected
 
 ## Database Schema
-![DBSchema](https://github.com/jgibbons7/personal-project/tree/master/public/screenshots/DB-diagram.png)
+![DBSchema](https://github.com/jgibbons7/personal-project/blob/master/public/screenshots/DB-diagram.png)
 
 ## Endpoints
   - app.post('/api/user', createUser())
-    - Body includes username, age, profileImage.
+    
   - app.post('/api/hobby', createHobby())
-    - Body includes hobbyName, description.
+    
   - app.delete('/api/user/:id', deleteUser())
-    - Params include the ID being deleted.
+    
   - app.delete('/api/hobby/:id', deleteHobby())
-    - Params include the ID being deleted.
+    
   - app.put('/api/hobby/:id, updateHobby())
-    - Param targets the hobby and the body carries updated info.
+    
   - app.put('/api/user/:id, updateUser())
+    
+
+## Controllers
+  - createUser() 
+    - Body includes username, age, profileImage. Returns a session.
+  - createHobby()
+    - Body includes hobbyName, description. Returns all hobbies.
+  - deleteUser()
+    - Params include the ID being deleted. Destroys session.
+  - deleteHobby()
+    - Params include the ID being deleted. Returns remaining hobbies.
+  - updateHobby()
+    - Param targets the hobby and the body carries updated info. Returns hobbies.
+  - updateUser()
     - Param targets the hobby and the body carries updated info.
+
+![Wireframe](https://github.com/jgibbons7/personal-project/blob/master/public/screenshots/App-map.png)
+
+![Hobby-Page](https://github.com/jgibbons7/personal-project/blob/master/public/screenshots/Hobby-Page.png)
+
+![Home-Page](https://github.com/jgibbons7/personal-project/blob/master/public/screenshots/Home-Page.png)
+
+![Login-Page](https://github.com/jgibbons7/personal-project/blob/master/public/screenshots/Login-Page.png)
+
+![Profile-Page](https://github.com/jgibbons7/personal-project/blob/master/public/screenshots/Profile-Page.png)
