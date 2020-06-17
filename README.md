@@ -55,6 +55,21 @@
   - updateUser()
     - Param targets the hobby and the body carries updated info.
 
+## Point Plan
+  - CORE (40 pts)
+    - 3 responsive views (10 pts)
+    - Functional Authnetication (10 pts)
+    - Redux Store and 2 Reducers (15 pts)
+    - React Hook in at least 2 components (5 pts)
+
+  - Additional Technology (30 pts)
+    - Sockets for Chat (10 pts)
+    - Twilio for SMS (10 pts)
+    - CSS in JS (10 pts)
+  
+  - Hosting (15 pts)
+    - Hosted and registered under unique name. (15 pts)
+
 ![Wireframe](https://github.com/jgibbons7/personal-project/blob/master/public/screenshots/App-map.png)
 
 ![Hobby-Page](https://github.com/jgibbons7/personal-project/blob/master/public/screenshots/Hobby-Page.png)
