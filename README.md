@@ -6,7 +6,7 @@
   - No politics or religion, only hobbies.  
   - No feed where your crazy aunt spams radical crazy.
 
-### Who is your targer user?
+### Who is your target user?
   - 18 - 35 years of age.
 
 ### How much experience do they have with technology?
@@ -28,7 +28,9 @@
 ![DBSchema](https://github.com/jgibbons7/personal-project/blob/master/public/screenshots/DB-diagram.png)
 
 ## Endpoints
-  - app.post('/api/user', createUser())
+  - app.get('/api/hobby', componentDidMount())
+
+  - app.post('/api/user/register', createUser())
     
   - app.post('/api/hobby', createHobby())
     
