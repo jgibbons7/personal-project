@@ -5,6 +5,7 @@ const session = require('express-session')
 const {SERVER_PORT, SESSION_SECRET, CONNECTION_STRING} = process.env
 const ctrl = require('./controller')
 
+
 const app = express()
 app.use(express.json())
 app.use(session({
@@ -22,6 +23,9 @@ massive({
   console.log('DB Connected')
   app.listen(SERVER_PORT, () => console.log(`Big Brother watching on ${SERVER_PORT}`))
 }).catch(err => console.log(err))
+
+
+server.listen(SERVER_PORT, () => console.log(`Socket server on ${SERVER_PORT}`))
 
 app.post('/api/user/register', ctrl.createUser)
 app.delete('/api/user/:id', ctrl.deleteUser)
